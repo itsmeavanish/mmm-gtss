@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICETITSC 2025 Registration - International Conference on Emerging Trends in IT & Symbolic Computation</title>
+    <meta name="description" content="Join us at MMMUT Gorakhpur for the premier conference on Information Technology and Symbolic Computation, March 15-17, 2025">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="header-info">
+                    <h1 class="header-title">ICETITSC 2025 Registration</h1>
+                    <p class="header-subtitle">
+                        International Conference on Emerging Trends in IT & Symbolic Computation
+                    </p>
+                </div>
+                <div class="early-bird-badge">
+                    Early Bird: Save 20%
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="content-grid">
+                <!-- Registration Form -->
+                <div class="form-section">
+                    <div class="form-card">
+                        <div class="form-header">
+                            <h2 class="form-title">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="12" cy="7" r="4"/>
+                                </svg>
+                                Registration Form
+                            </h2>
+                            <p class="form-description">
+                                Please fill in all required information to complete your registration
+                            </p>
+                        </div>
+                        
+                        <div class="form-content">
+                            <div class="tabs">
+                                <div class="tab-list">
+                                    <button class="tab-trigger active" data-tab="personal">Personal</button>
+                                    <button class="tab-trigger" data-tab="professional">Professional</button>
+                                    <button class="tab-trigger" data-tab="paper">Paper</button>
+                                    <button class="tab-trigger" data-tab="payment">Payment</button>
+                                </div>
+
+                                <!-- Personal Tab -->
+                                <div class="tab-content active" id="personal">
+                                    <div class="form-grid">
+                                        <div class="form-group">
+                                            <label for="firstName" class="form-label">First Name *</label>
+                                            <input type="text" id="firstName" class="form-input" placeholder="Enter your first name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="lastName" class="form-label">Last Name *</label>
+                                            <input type="text" id="lastName" class="form-input" placeholder="Enter your last name">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email" class="form-label">Email Address *</label>
+                                        <input type="email" id="email" class="form-input" placeholder="Enter your email address">
+                                    </div>
+                                    <div class="form-grid">
+                                        <div class="form-group">
+                                            <label for="phone" class="form-label">Phone Number *</label>
+                                            <input type="tel" id="phone" class="form-input" placeholder="+91 XXXXXXXXXX">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="country" class="form-label">Country *</label>
+                                            <select id="country" class="form-select">
+                                                <option value="">Select your country</option>
+                                                <option value="india">India</option>
+                                                <option value="usa">United States</option>
+                                                <option value="uk">United Kingdom</option>
+                                                <option value="canada">Canada</option>
+                                                <option value="australia">Australia</option>
+                                                <option value="other">Other</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Professional Tab -->
+                                <div class="tab-content" id="professional">
+                                    <div class="form-group">
+                                        <label for="affiliation" class="form-label">Institution/Organization *</label>
+                                        <input type="text" id="affiliation" class="form-input" placeholder="Enter your institution name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="designation" class="form-label">Designation *</label>
+                                        <input type="text" id="designation" class="form-input" placeholder="Professor, Student, Researcher, etc.">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="category" class="form-label">Registration Category *</label>
+                                        <select id="category" class="form-select">
+                                            <option value="">Select registration category</option>
+                                            <option value="student">Student</option>
+                                            <option value="faculty">Faculty</option>
+                                            <option value="industry">Industry Professional</option>
+                                            <option value="researcher">Researcher</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="accommodation" class="form-label">Accommodation Required</label>
+                                        <select id="accommodation" class="form-select">
+                                            <option value="">Select accommodation preference</option>
+                                            <option value="none">No accommodation needed</option>
+                                            <option value="single">Single room</option>
+                                            <option value="shared">Shared room</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <!-- Paper Tab -->
+                                <div class="tab-content" id="paper">
+                                    <div class="form-group">
+                                        <label for="paperTitle" class="form-label">Paper Title</label>
+                                        <input type="text" id="paperTitle" class="form-input" placeholder="Enter your paper title (if applicable)">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="abstract" class="form-label">Abstract</label>
+                                        <textarea id="abstract" class="form-textarea" placeholder="Enter your paper abstract (if applicable)"></textarea>
+                                    </div>
+                                </div>
+
+                                <!-- Payment Tab -->
+                                <div class="tab-content" id="payment">
+                                    <div class="form-group">
+                                        <label for="paymentMethod" class="form-label">Payment Method *</label>
+                                        <select id="paymentMethod" class="form-select">
+                                            <option value="">Select payment method</option>
+                                            <option value="online">Online Payment</option>
+                                            <option value="bank">Bank Transfer</option>
+                                            <option value="dd">Demand Draft</option>
+                                        </select>
+                                    </div>
+                                    <div class="payment-info">
+                                        <h4 class="payment-info-title">Payment Instructions</h4>
+                                        <ul class="payment-info-list">
+                                            <li>• Online payment via credit/debit card or net banking</li>
+                                            <li>• Bank transfer to provided account details</li>
+                                            <li>• Demand draft in favor of "ICETITSC 2025"</li>
+                                            <li>• Payment confirmation will be sent via email</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="submit-button">
+                                Complete Registration
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="sidebar">
+                    <!-- Registration Fees -->
+                    <div class="sidebar-card">
+                        <div class="sidebar-header">
+                            <h3 class="sidebar-title">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="1" y="4" width="22" height="16" rx="2" ry="2"/>
+                                    <line x1="1" y1="10" x2="23" y2="10"/>
+                                </svg>
+                                Registration Fees
+                            </h3>
+                        </div>
+                        <div class="sidebar-content">
+                            <div class="fee-item">
+                                <span class="fee-category">Students</span>
+                                <span class="fee-amount">₹2,000</span>
+                            </div>
+                            <div class="fee-item">
+                                <span class="fee-category">Faculty</span>
+                                <span class="fee-amount">₹3,500</span>
+                            </div>
+                            <div class="fee-item">
+                                <span class="fee-category">Industry</span>
+                                <span class="fee-amount">₹5,000</span>
+                            </div>
+                            <div class="fee-item">
+                                <span class="fee-category">International</span>
+                                <span class="fee-amount">$150</span>
+                            </div>
+                            <div class="early-bird-info">
+                                <p><strong>Early Bird Discount:</strong> Register before Feb 10, 2025 and save 20%</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Conference Benefits -->
+                    <div class="sidebar-card">
+                        <div class="sidebar-header">
+                            <h3 class="sidebar-title">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M9 12l2 2 4-4"/>
+                                    <circle cx="12" cy="12" r="10"/>
+                                </svg>
+                                What's Included
+                            </h3>
+                        </div>
+                        <div class="sidebar-content">
+                            <ul class="benefits-list">
+                                <li class="benefit-item">
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 12l2 2 4-4"/>
+                                        <circle cx="12" cy="12" r="10"/>
+                                    </svg>
+                                    Conference proceedings
+                                </li>
+                                <li class="benefit-item">
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 12l2 2 4-4"/>
+                                        <circle cx="12" cy="12" r="10"/>
+                                    </svg>
+                                    Welcome kit & certificate
+                                </li>
+                                <li class="benefit-item">
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 12l2 2 4-4"/>
+                                        <circle cx="12" cy="12" r="10"/>
+                                    </svg>
+                                    All meals during conference
+                                </li>
+                                <li class="benefit-item">
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 12l2 2 4-4"/>
+                                        <circle cx="12" cy="12" r="10"/>
+                                    </svg>
+                                    Access to all sessions
+                                </li>
+                                <li class="benefit-item">
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 12l2 2 4-4"/>
+                                        <circle cx="12" cy="12" r="10"/>
+                                    </svg>
+                                    Networking opportunities
+                                </li>
+                                <li class="benefit-item">
+                                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 12l2 2 4-4"/>
+                                        <circle cx="12" cy="12" r="10"/>
+                                    </svg>
+                                    Cultural program
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="sidebar-card">
+                        <div class="sidebar-header">
+                            <h3 class="sidebar-title">
+                                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                                Need Help?
+                            </h3>
+                        </div>
+                        <div class="sidebar-content">
+                            <div class="contact-item">
+                                <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                                <span>icetitsc2025@mmmut.ac.in</span>
+                            </div>
+                            <div class="contact-item">
+                                <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                                <span>+91-551-2273958</span>
+                            </div>
+                            <div class="contact-item">
+                                <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                                <span>MMMUT, Gorakhpur, UP, India</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
